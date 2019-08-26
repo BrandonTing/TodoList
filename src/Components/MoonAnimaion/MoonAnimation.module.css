@@ -1,0 +1,133 @@
+.MoonArea {
+    display: block;
+    width: 500px;
+    height: 500px;
+    position: relative;
+    margin: 20px auto;
+}
+
+.BaseMoonShadow {
+    position: absolute;
+    height: 100%;
+    box-sizing: border-box;
+    animation: ShadowChange linear forwards;
+}
+
+@keyframes ShadowChange {
+    0%  {
+        width: 50%;
+        left: 50%;
+        background-color: rgba(255, 255, 255, 1);    
+        border-radius:  0 100% 100% 0/50%;
+        border-left: 0px solid rgba(255, 255, 255, 1);
+        border-right: 0;
+    }
+    25%  {
+        width: 0%;
+        left: 50%;
+        background-color: rgba(255, 255, 255, 1);    
+        border-radius:  0 100% 100% 0/50%;
+        border-left: 0px solid rgba(255, 255, 255, 1);    
+        border-right: 0;
+    }  
+    25.1% {
+        width: 50%;
+        border-radius: 100% 0 0 100% /50%;
+        border-right: 0;        
+        border-left: 150px solid rgba(255, 255, 255, 1);    
+        background-color: rgba(255, 255, 255, 0);    
+        left: 0%;
+    }
+    50% {
+        background-color: rgba(255, 255, 255,0);    
+        width: 50%;
+        border-right: 0px;
+        border-left: 0px solid rgba(255, 255, 255, 1);        
+        left: 0%;
+        border-radius: 100% 0 0 100% /50%;
+    }
+    50.1% {
+        background-color: rgba(255, 255, 255,0);    
+        width: 50%;
+        border-right: 0px solid rgba(255, 255, 255, 1);        
+        border-left: 0;        
+        left: 50%;
+        border-radius: 0 100% 100% 0/50%;    
+    }
+    75% {
+        background-color: rgba(255, 255, 255,0);    
+        width: 50%;
+        border-right: 150px solid rgba(255, 255, 255, 1);        
+        border-left: 0;        
+        left: 50%;
+        border-radius: 0 100% 100% 0/50%;        
+    }
+    75.1% {
+        width: 0%;
+        border-radius: 100% 0 0 100% /50%;
+        border-right: 0;        
+        border-left: 0;    
+        background-color: rgba(255, 255, 255, 1);    
+        left: 50%; 
+    } 
+    100% {
+        background-color: rgba(255, 255, 255,1);    
+        width: 50%;
+        border-right: 0px;
+        border-left: 0;        
+        left: 0%;
+        border-radius: 100% 0 0 100% /50%;
+    }
+}
+
+.BaseMoonShadow2 {
+    height: 100%;
+    box-sizing: border-box;
+    animation: ShadowChange2 linear forwards;  
+    animation-timing-function: steps(1, end);
+    width: 50%;
+    position: absolute;
+}
+
+@keyframes ShadowChange2 {
+    0% {
+        background-color: rgba(255,255,255,1);
+        left: 0;
+        border-radius: 100% 0 0 100% / 50%;    
+    }
+    25% {
+        background-color: rgba(255,255,255,1);
+        left: 0;
+        border-radius: 100% 0 0 100% / 50%;    
+    }
+    25.1% {
+        background-color: rgba(255,255,255,0);
+        left: 0;
+        border-radius: 100% 0 0 100% / 50%;    
+    }
+    50% {
+        background-color: rgba(255,255,255,0);
+        left: 0;
+        border-radius: 100% 0 0 100% / 50%;    
+    }
+    50.1% {
+        background-color: rgba(255,255,255,0);
+        left: 0;
+        border-radius: 100% 0 0 100% / 50%;    
+    }
+    75% {
+        background-color: rgba(255,255,255,0);
+        left: 0;
+        border-radius: 100% 0 0 100% / 50%;        
+    }
+    75.1% {
+        background-color: rgba(255,255,255,1);
+        left: 50%;
+        border-radius: 0 100% 100% 0/ 50%;        
+    }
+    100% {
+        background-color: rgba(255,255,255,1);
+        left: 50%;
+        border-radius: 0 100% 100% 0 / 50%;            
+    }
+}

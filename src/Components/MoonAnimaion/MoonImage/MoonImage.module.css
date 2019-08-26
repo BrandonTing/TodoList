@@ -1,0 +1,7 @@
+.MoonImg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: 50%;
+    box-shadow: 0 0 25px rgba(155, 158, 160, 0.7)
+}

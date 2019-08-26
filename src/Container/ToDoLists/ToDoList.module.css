@@ -1,0 +1,21 @@
+.ToDoList {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    box-sizing: border-box;
+}
+
+.RightArea {
+    box-sizing: border-box;
+    border:  1px solid gold;
+    display: grid;
+    grid-template-rows: 540px 1fr;
+}
+
+.MusicArea {
+    height: 100%;
+    box-sizing: border-box;
+    width: 95%;
+    border: 1px solid gold;
+    text-align: center;
+    margin: 2px auto;
+}

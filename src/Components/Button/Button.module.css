@@ -1,0 +1,60 @@
+.Button {
+    background-color: transparent;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    margin: 5px 10px;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Start {
+    border-style: solid;
+    border-width: 20px 0 20px 40px;
+    border-color: transparent transparent transparent rgb(116, 199, 231);
+}
+
+
+.Pause {
+    height: 42px;
+    border-style: double;
+    border-width: 0px 0 0px 36px;
+    border-color: transparent transparent transparent rgb(238, 107, 107);
+}
+
+.Add {
+    background-color: rgb(20, 80, 150);
+    font-weight: bold;
+    font-size: 2em; 
+    border-radius: 50%;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgba(128, 170, 218, 0.7);
+    color: rgb(248, 113, 169);
+}
+
+.Done {
+    border-width: 5px;
+    border-style:  solid;
+    border-color: rgb(248, 113, 169);
+    border-radius: 50%;
+}
+
+.onGoing {
+    background-color: rgb(248, 113, 169);
+    border: 1px solid rgb(143, 189, 241);
+    border-radius: 50%;
+    position: absolute;
+}
+
+.Reset {
+    height: 10px;
+    width: 10px;
+    background-color: rgb(211, 67, 67);
+}
+
+.Button:hover {
+    transform: scale(1.2, 1.2);
+}

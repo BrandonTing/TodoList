@@ -1,21 +1,44 @@
-.ToDoList {
-    display: grid;
-    grid-template-columns: 2fr 3fr;
+.WorkingList {
     box-sizing: border-box;
+    padding: 0;
+    margin: 0px auto;
+    width: 100%;
+    height: 640px;
+    display: grid;
+    grid-template-columns:  40% 60%;
+    grid-template-rows: none;
 }
 
-.RightArea {
+.CurrentTaskArea {
+    width: 100%;
+    height:100%;
     box-sizing: border-box;
-    border:  1px solid gold;
     display: grid;
-    grid-template-rows: 540px 1fr;
+    grid-template-columns: 55% 45%;
+    grid-template-rows: 340px 60px 1fr;
+    align-items: flex-start;
 }
 
-.MusicArea {
+.MediaArea {
+    width: 100%;
     height: 100%;
     box-sizing: border-box;
-    width: 95%;
-    border: 1px solid gold;
-    text-align: center;
-    margin: 2px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+
+.Music {
+    display: block;
+    width: 90%;
+    margin: 0 auto 5% auto; 
+}
+
+
+@media (max-width : 1000px) {
+    .WorkingList {
+        height: 1150px;
+        grid-template-columns: none;
+        grid-template-rows: 1fr 530px;
+    };
 }

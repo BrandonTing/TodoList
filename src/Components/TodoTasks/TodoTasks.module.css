@@ -1,0 +1,61 @@
+.TasksList {
+    display: block;
+    width: 90%;
+    margin: 5px auto 0 auto;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 0 1%;
+    grid-area: 3/1/4/3;
+    color: white;
+}
+
+.List {
+    margin: 1% auto 0 auto;
+    list-style: none;
+    padding-left: 0;
+    height: 86%;
+}
+
+.More {
+    margin: 0 10% 0 80%;
+    text-align: center;
+    text-decoration: none;
+    height: 10%;
+    color: white;
+}
+
+.More:hover {
+    background-color: rgba(54, 72, 88, 0.3);
+}
+
+.Task {
+    display: block;
+    border: 1px solid rgb(89, 84, 223);
+    margin: 1% auto 5% auto;
+    position: relative;
+    height: 20%;
+    background-color: rgb(54, 72, 88);
+    border-radius: 30px;
+}
+
+.move-enter {
+    opacity: 0.01;
+    transform: translate(0, 40px)
+}
+
+.move-enter-active {
+    opacity: 1;
+    transform: translate(0, 0);
+    transition: all 300ms ease-in;
+}
+
+.move-exit {
+    opacity: 1;
+    transform: translate(0, 0)
+}
+
+.move-exit-active {
+    opacity: 0.01;
+    transform: translate(0, -40px);
+    transition: all 300ms ease-in;
+}

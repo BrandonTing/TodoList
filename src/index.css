@@ -14,6 +14,7 @@ body:after {
   position: absolute;
   top: 0;
   left: 0;
+  background-color: rgb(61, 87, 112);
   background-image: url(/wp-content/uploads/2010/11/tandem.jpg); 
   background-image: url("Assets/Images/Galaxy.jpg");
   background-size: contain;

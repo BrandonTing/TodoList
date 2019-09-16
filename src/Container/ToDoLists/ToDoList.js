@@ -49,7 +49,7 @@ class TodoList extends Component {
             input: {
                 elementConfig : {
                     type: 'text', 
-                    placeholder: 'Mail Address',
+                    placeholder: 'New task',
                 },
                 value: '',
             },
@@ -136,7 +136,7 @@ class TodoList extends Component {
     newTaskHandler = (event) => {
         event.preventDefault();
         // 將表格中資料更新至TodoList中，並重置表格。
-        const updatedTasks = {
+        const updatedItems = {
             ...this.state.items,
             Todo: {
                 ...this.state.items.Todo,
@@ -160,7 +160,7 @@ class TodoList extends Component {
                 value: 30,
             },
         }
-        this.setState({tasks: updatedTasks, formContent: updatedForm})
+        this.setState({items: updatedItems, formContent: updatedForm})
     }
 
     // 改變目前的任務、背景音樂或鬧鈴。

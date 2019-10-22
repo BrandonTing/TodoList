@@ -89,7 +89,7 @@ class TodoList extends Component {
                 this.setState({
                     isRunning: false, 
                     showAnimation: false,
-                    timesPassed: updatedTimePassed});
+                    timesPassed: 0});
             } else {
                 this.setState({
                     timesPassed: updatedTimePassed,

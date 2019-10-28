@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/TodoList/static/css/main.3fdd43cf.chunk.css",
+    "main.css": "/TodoList/static/css/main.819bafc0.chunk.css",
     "main.js": "/TodoList/static/js/main.55adb9a0.chunk.js",
     "main.js.map": "/TodoList/static/js/main.55adb9a0.chunk.js.map",
     "runtime~main.js": "/TodoList/static/js/runtime~main.20f7453a.js",
@@ -8,9 +8,9 @@
     "static/js/2.7ab5f55f.chunk.js": "/TodoList/static/js/2.7ab5f55f.chunk.js",
     "static/js/2.7ab5f55f.chunk.js.map": "/TodoList/static/js/2.7ab5f55f.chunk.js.map",
     "index.html": "/TodoList/index.html",
-    "precache-manifest.6e4425c644a4aac820395cb83a130c0c.js": "/TodoList/precache-manifest.6e4425c644a4aac820395cb83a130c0c.js",
+    "precache-manifest.2f169e7b33330ebf637375b0ebb622df.js": "/TodoList/precache-manifest.2f169e7b33330ebf637375b0ebb622df.js",
     "service-worker.js": "/TodoList/service-worker.js",
-    "static/css/main.3fdd43cf.chunk.css.map": "/TodoList/static/css/main.3fdd43cf.chunk.css.map",
+    "static/css/main.819bafc0.chunk.css.map": "/TodoList/static/css/main.819bafc0.chunk.css.map",
     "static/media/Alarm_Clock.mp3": "/TodoList/static/media/Alarm_Clock.b84fccdc.mp3",
     "static/media/Back_To_The_Wood.mp3": "/TodoList/static/media/Back_To_The_Wood.b6a5d36c.mp3",
     "static/media/Bugle_Tune.mp3": "/TodoList/static/media/Bugle_Tune.cfb74f70.mp3",

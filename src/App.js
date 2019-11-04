@@ -1,12 +1,12 @@
-import React , { Component } from 'react';
+import React, { Component } from 'react';
 
 import ToDoList from './Container/ToDoLists/ToDoList';
 
 class App extends Component {
-  render() {
+  render () {
     return (
       <ToDoList />
-    )
+    );
   }
 }
 
